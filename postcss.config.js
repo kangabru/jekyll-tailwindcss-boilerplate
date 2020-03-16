@@ -1,7 +1,11 @@
 /* A postcss config file used to build and compress the tailwinds css file. */
 
 // Remove comment and minify css
-const cssnano = require('cssnano')({ preset: 'default' })
+const cssnano = require('cssnano')({
+    preset: ['default', {
+        normalizeWhitespace: false
+    }]
+})
 
 // Removes all unused css classes
 const purgecss = require('@fullhuman/postcss-purgecss')({

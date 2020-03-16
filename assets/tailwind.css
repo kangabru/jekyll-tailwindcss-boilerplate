@@ -8,7 +8,7 @@
     Be sure to regenerate the CSS after modifying this file in order to see your changes.
 
     Generate CSS directly:
-    $ npm run css:dev
+    $ npm run css:raw
 
     Or run as part of dev mode:
     $ npm run dev
