@@ -5,3 +5,10 @@ description: Your site description
 
 plugins:
   - jekyll-seo-tag
+
+exclude: [
+  package.json,
+  package-lock.json,
+  postcss.config.js,
+  readme.md,
+]

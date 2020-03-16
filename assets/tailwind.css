@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
+
+/*
+    Extract Tailwind CSS components here according to the docs.
+    https: //tailwindcss.com/docs/extracting-components/#extracting-css-components-with-apply
+
+    Be sure to regenerate the CSS after modifying this file in order to see your changes.
+
+    Generate CSS directly:
+    $ npm run css:dev
+
+    Or run as part of dev mode:
+    $ npm run dev
+*/
+
 @tailwind utilities;
