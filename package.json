@@ -7,7 +7,7 @@
         "dev": "npm run css:raw && jekyll serve",
         "rel": "npm run css:clean",
         "css:raw": "postcss assets/tailwind.css -o assets/tailwind.generated.css",
-        "css:clean": "postcss assets/tailwind.css -o assets/tailwind.generated.css --env production"
+        "css:clean": "npm run css:raw -- --env production"
     },
     "devDependencies": {
         "@fullhuman/postcss-purgecss": "^2.1.0",
