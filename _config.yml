@@ -11,4 +11,5 @@ exclude: [
   package-lock.json,
   postcss.config.js,
   readme.md,
+  assets/tailwind.config.css
 ]
