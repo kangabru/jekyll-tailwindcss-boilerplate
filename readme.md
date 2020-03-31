@@ -36,3 +36,8 @@ A bare bones [Jekyll](https://jekyllrb.com/) site which comes preconfigured to u
 
 - Generates the minimum Tailwind CSS necessary to display your site in order to keep the file size tiny.
 - Minifies the CSS to reduce the file size even more.
+- Note that the generated CSS file is placed directly in the `_site/assets` folder.
+
+To deploy on [Netlify](https://www.netlify.com/) for example, use the following build settings:
+- Build command: `npm run build`
+- Publish Directory: `_site`
