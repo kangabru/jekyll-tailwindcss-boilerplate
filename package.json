@@ -4,9 +4,8 @@
     "description": "Your repo description",
     "scripts": {
         "setup": "gem install bundler && bundle install && npm i && npm i postcss-cli -g",
-        "build": "npm run css:rel && jekyll build",
         "dev": "npm run css:dev && jekyll serve",
-        "rel": "npm run css:rel",
+        "rel": "npm run css:rel && jekyll build",
         "css:dev": "postcss assets/tailwind.config.css -o assets/tailwind.css",
         "css:rel": "npm run css:dev -- --env production"
     },
