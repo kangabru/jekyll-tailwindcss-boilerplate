@@ -28,7 +28,9 @@ A bare bones [Jekyll](https://jekyllrb.com/) site which comes preconfigured to u
 - Generates _all_ Tailwind CSS classes so you can develop without regenerating them.
 - Runs the Jekyll watcher which regenerates the site when files are modified.
 
-*Note that the `tailwind.generated.css` file will show changes in git. Ensure to run the release command before committing so that you only commit necessary CSS changes.*
+#### Dev Tools
+- Consider using the VSCode extension [Tailwind CSS intelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) (Extension ID `bradlc.vscode-tailwindcss`).
+- Consider installing [live-server](https://www.npmjs.com/package/live-server) to refresh the browser on file changes. Watch the `_site/` folder as follows: `$ live-server _site/`.
 
 ### 💻 Release
 
