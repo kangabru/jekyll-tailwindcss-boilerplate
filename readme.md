@@ -27,6 +27,7 @@ A bare bones [Jekyll](https://jekyllrb.com/) site which comes preconfigured to u
 
 - Generates _all_ Tailwind CSS classes so you can develop without regenerating them.
 - Runs the Jekyll watcher which regenerates the site when files are modified.
+- [More detail here](/readme-css.md).
 
 #### Dev Tools
 - Consider using the VSCode extension [Tailwind CSS intelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) (Extension ID `bradlc.vscode-tailwindcss`).
@@ -39,7 +40,12 @@ A bare bones [Jekyll](https://jekyllrb.com/) site which comes preconfigured to u
 - Generates the minimum Tailwind CSS necessary to display your site in order to keep the file size tiny.
 - Minifies the CSS to reduce the file size even more.
 - Builds the jekyll site to the `_site` folder.
+- [More detail here](/readme-css.md).
 
 To deploy on [Netlify](https://www.netlify.com/) for example, use the following build settings:
 - Build command: `npm run rel`
 - Publish Directory: `_site`
+
+---
+
+Having trouble? Check out the [troubleshoot guide](readme-css.md#troubleshoot) or post an issue.

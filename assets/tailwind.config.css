@@ -14,4 +14,11 @@
     $ npm run dev
 */
 
+/*
+    An example of a custom class using Tailwind CSS
+    .my-class {
+        @apply px-3 py-2 m-5 bg-white;
+    }
+*/
+
 @tailwind utilities;
