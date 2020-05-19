@@ -26,8 +26,8 @@ const purgecss = require('@fullhuman/postcss-purgecss')({
     //       Generated HTML is placed in the '_site/' folder which is ignored by PurgeCSS.
     //       Therefore classes may disappear unexpectedly if not whitelisted here.
     whitelist: [
-        // Got custom styling for your blog? Uncomment these:
-        // 'p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'ul', 'li',
+        // Not using a Jekyll as a blog? Comment these:
+        'p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'ul', 'li',
 
         // Using code hightlighting in your blog? Uncomment these:
         // 'code', 'pre',
