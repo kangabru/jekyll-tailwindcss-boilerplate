@@ -7,7 +7,7 @@ backLink: false
 # Jekyll + Tailwind
 
 {:.lead}
-Minimal boilerplate for [Jekyll](https://tailwindcss.com/) sites and [Tailwind CSS](https://jekyllrb.com/).
+Minimal boilerplate for [Jekyll](https://jekyllrb.com/) sites and [Tailwind CSS](https://tailwindcss.com/).
 
 ## Pages
 
