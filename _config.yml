@@ -7,9 +7,9 @@ plugins:
   - jekyll-seo-tag
 
 exclude: [
+  index.css,
   package.json,
   package-lock.json,
   postcss.config.js,
   readme.md,
-  assets/tailwind.config.css
 ]

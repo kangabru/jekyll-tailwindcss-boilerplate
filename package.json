@@ -3,19 +3,23 @@
     "version": "0.0.1",
     "description": "Your repo description",
     "scripts": {
-        "setup": "gem install bundler && bundle install && npm i && npm i postcss-cli -g",
-        "dev": "npm run css:dev && jekyll serve",
-        "rel": "npm run css:rel && jekyll build",
-        "css:dev": "postcss assets/tailwind.config.css -o assets/tailwind.css",
-        "css:rel": "npm run css:dev -- --env production"
+        "preinstall": "npx npm-force-resolutions",
+        "setup": "gem install bundler && bundle install && npm i",
+        "start": "concurrently --kill-others \"npm run css:dev\" \"jekyll serve\"",
+        "build": "npm run css:rel && jekyll build",
+        "css:dev": "parcel watch index.css --no-source-maps",
+        "css:rel": "parcel build index.css --no-source-maps"
     },
     "devDependencies": {
-        "@fullhuman/postcss-purgecss": "^2.1.0",
-        "cssnano": "^4.1.10",
-        "postcss": "^7.0.27",
-        "postcss-cli": "^7.1.0"
+        "autoprefixer": "^9.8.6",
+        "concurrently": "^5.3.0",
+        "parcel-bundler": "^1.12.4",
+        "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.1"
     },
     "dependencies": {
-        "tailwindcss": "^1.2.0"
+        "@tailwindcss/typography": "^0.3.1"
+    },
+    "resolutions": {
+        "node-forge": "0.10.0"
     }
 }

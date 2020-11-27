@@ -2,6 +2,8 @@
 
 A bare bones [Jekyll](https://jekyllrb.com/) site which comes preconfigured to use [Tailwind CSS](https://tailwindcss.com/) for styling.
 
+> 👉 [Try the demo here](https://jekyll-tailwindcss-boilerplate.netlify.app/).
+
 ## Features
 
 - 🤍 Ships free of styling or theming. [Add a theme](https://jekyllrb.com/resources/) or [get started with Tailwind CSS](https://tailwindcss.com/docs/utility-first/).
@@ -11,41 +13,39 @@ A bare bones [Jekyll](https://jekyllrb.com/) site which comes preconfigured to u
 
 ---
 
-## Install
+## 👟 Install
 
-- [Download Ruby](https://www.ruby-lang.org/en/downloads/)
-- [Download NPM](https://www.npmjs.com/get-npm)
-- Run `$ npm run setup` to setup the project.
+Ensure [Ruby](https://www.ruby-lang.org/en/downloads/) and [npm](https://www.npmjs.com/get-npm) are installed then setup the project:
+```
+npm run setup
+```
 
----
+## 🍕 Develop
 
-## How to Use
+```
+npm start
+```
+Parcel and Jekyll will run concurrently so file changes update automatically.
 
-### 🍕 Development
+## 💻 Release
 
-```$ npm run dev```
+```
+npm run rel
+```
+Tailwind CSS is minified and Jekyll outputs the site to the `_site` folder.
 
-- Generates _all_ Tailwind CSS classes so you can develop without regenerating them.
-- Runs the Jekyll watcher which regenerates the site when files are modified.
-- [More detail here](/readme-css.md).
-
-#### Dev Tools
-- Consider using the VSCode extension [Tailwind CSS intelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) (Extension ID `bradlc.vscode-tailwindcss`).
-- Consider installing [live-server](https://www.npmjs.com/package/live-server) to refresh the browser on file changes. Watch the `_site/` folder as follows: `$ live-server _site/`.
-
-### 💻 Release
-
-```$ npm run rel```
-
-- Generates the minimum Tailwind CSS necessary to display your site in order to keep the file size tiny.
-- Minifies the CSS to reduce the file size even more.
-- Builds the jekyll site to the `_site` folder.
-- [More detail here](/readme-css.md).
-
-To deploy on [Netlify](https://www.netlify.com/) for example, use the following build settings:
-- Build command: `npm run rel`
-- Publish Directory: `_site`
+Deploy statically (e.g. [Netlify](https://www.netlify.com/)) with the following build settings:
+- Command: `npm run build`
+- Directory: `_site`
 
 ---
 
-Having trouble? Check out the [troubleshoot guide](readme-css.md#troubleshoot) or post an issue.
+## 🤔 Troubleshoot
+
+### My styling disappears when deployed
+-  Jekyll markdown may generate elements that are being purged by Tailwind CSS. [See these docs](https://tailwindcss.com/docs/optimizing-for-production#purge-css-options) to whitelist elements or configure PurgeCSS further.
+- Don't build up class names like `"my" + "-class"`. Use full names like `"my-class"` instead.
+- Don't whitelist the `_site/` folder as this folder is not guaranteed to exist when deployed to a server.
+
+### Have another issue?
+Contact me by posting an issue. I'll be happy to help 🙂
