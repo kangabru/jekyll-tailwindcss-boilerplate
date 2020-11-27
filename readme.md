@@ -38,9 +38,11 @@ Open your page on [localhost:4000](http://localhost:4000). Parcel and Jekyll wil
 ## 💻 Release
 
 ```
-npm run rel
+npm run build
 ```
 Tailwind CSS is minified and Jekyll outputs the site to the `_site` folder.
+
+[![Deploy on Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/kangabru/jekyll-tailwindcss-boilerplate)
 
 Deploy statically (e.g. [Netlify](https://www.netlify.com/)) with the following build settings:
 - Command: `npm run build`
