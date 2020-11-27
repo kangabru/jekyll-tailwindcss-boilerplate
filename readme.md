@@ -2,7 +2,9 @@
 
 A bare bones [Jekyll](https://jekyllrb.com/) site which comes preconfigured to use [Tailwind CSS](https://tailwindcss.com/) for styling.
 
-> 👉 [Try the demo here](https://jekyll-tailwindcss-boilerplate.netlify.app/).
+👉 [Try the demo here](https://jekyll-tailwindcss-boilerplate.netlify.app/).
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a783907c-769f-4399-80fd-3b6d511868ff/deploy-status)](https://app.netlify.com/sites/jekyll-tailwindcss-boilerplate/deploys)
 
 ## Features
 
