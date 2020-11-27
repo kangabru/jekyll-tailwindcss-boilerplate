@@ -21,6 +21,13 @@ Ensure [Ruby](https://www.ruby-lang.org/en/downloads/) and [npm](https://www.npm
 ```
 npm run setup
 ```
+Open your page on [localhost:4000](http://localhost:4000).
+
+> :warning: **CSS might not render on the very first load.** :warning:
+>
+> Simply open [`index.css`](/index.css) and save to refresh the file.
+>
+> Jekyll and Parcel run concurrently in dev builds so the CSS may not generate in time. This only happens once (when the file doesn't exist) and is not an issue in prod builds.
 
 ## 🍕 Develop
 
