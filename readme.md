@@ -31,7 +31,7 @@ Open your page on [localhost:4000](http://localhost:4000). Parcel and Jekyll wil
 
 > :warning: **CSS might not render on the very first load.** :warning:
 >
-> Simply open [`index.css`](/index.css), save the file to trigger an update, then refresh your browser.
+> Simply open `index.css` in your local text editor, save the file to trigger an update, wait until Parcel/Jekyll update, then refresh your browser.
 >
 > Jekyll and Parcel run concurrently in dev builds so the CSS may not generate in time. This only happens once (when the file doesn't exist) and is not an issue in prod builds.
 
