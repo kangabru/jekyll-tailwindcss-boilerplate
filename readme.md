@@ -17,7 +17,7 @@ A bare bones [Jekyll](https://jekyllrb.com/) site which comes preconfigured to u
 
 ## 👟 Install
 
-Ensure [Ruby](https://www.ruby-lang.org/en/downloads/) and [npm](https://www.npmjs.com/get-npm) are installed then setup the project:
+Ensure [Ruby](https://www.ruby-lang.org/en/downloads/) and [node](https://nodejs.org) (v11+) are installed then setup the project:
 ```
 npm run setup
 ```
