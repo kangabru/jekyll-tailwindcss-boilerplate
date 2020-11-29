@@ -11,7 +11,10 @@ A bare bones [Jekyll](https://jekyllrb.com/) site which comes preconfigured to u
 
 ## Features
 
-- 🤍 Ships free of styling or theming. [Add a theme](https://jekyllrb.com/resources/) or [get started with Tailwind CSS](https://tailwindcss.com/docs/utility-first/).
+- 🤍 Ships free of styling or theming. You can:
+    - [Add a theme](https://jekyllrb.com/resources/)
+    - [Get started with Tailwind CSS](https://tailwindcss.com/docs/utility-first/)
+    - Use the [Tailwind Typography](https://github.com/tailwindlabs/tailwindcss-typography) plugin ([see example](https://jekyll-tailwindcss-boilerplate.netlify.app/2020/01/01/demo.html))
 - 📈 Ships Google Analytics and SEO ready
 - 🍕 Dev mode: your Jekyll site is refreshed on file changes and all Tailwind CSS classes are available for use.
 - 💻 Release mode: CSS is optimised by striping out unused classes and minifying the file.
