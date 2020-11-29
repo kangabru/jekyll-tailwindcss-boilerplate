@@ -11,14 +11,13 @@
         "css:rel": "parcel build index.css --no-source-maps"
     },
     "devDependencies": {
+        "@tailwindcss/typography": "^0.3.1",
         "autoprefixer": "^9.8.6",
         "concurrently": "^5.3.0",
         "parcel-bundler": "^1.12.4",
         "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.1"
     },
-    "dependencies": {
-        "@tailwindcss/typography": "^0.3.1"
-    },
+    "dependencies": {},
     "resolutions": {
         "node-forge": "0.10.0"
     }
