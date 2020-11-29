@@ -7,8 +7,8 @@
         "setup": "gem install bundler && bundle install && npm i",
         "start": "concurrently --kill-others \"npm run css:dev\" \"jekyll serve\"",
         "build": "npm run css:rel && jekyll build",
-        "css:dev": "parcel watch index.css --no-source-maps",
-        "css:rel": "parcel build index.css --no-source-maps"
+        "css:dev": "parcel watch styles/index.css --no-source-maps",
+        "css:rel": "parcel build styles/index.css --no-source-maps"
     },
     "devDependencies": {
         "@tailwindcss/typography": "^0.3.1",

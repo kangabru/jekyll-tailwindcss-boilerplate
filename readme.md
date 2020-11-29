@@ -1,10 +1,13 @@
+<div align="center">
+
 # Jekyll & Tailwind CSS Boilerplate
 
 A bare bones [Jekyll](https://jekyllrb.com/) site which comes preconfigured to use [Tailwind CSS](https://tailwindcss.com/) for styling.
 
-👉 [Try the demo here](https://jekyll-tailwindcss-boilerplate.netlify.app/).
+👉 [Try the demo here](https://jekyll-tailwindcss-boilerplate.netlify.app/) 👈
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a783907c-769f-4399-80fd-3b6d511868ff/deploy-status)](https://app.netlify.com/sites/jekyll-tailwindcss-boilerplate/deploys)
+</div>
 
 ## Features
 
@@ -31,7 +34,7 @@ Open your page on [localhost:4000](http://localhost:4000). Parcel and Jekyll wil
 
 > :warning: **CSS might not render on the very first load.** :warning:
 >
-> Simply open `index.css` in your local text editor, save the file to trigger an update, wait until Parcel/Jekyll update, then refresh your browser.
+> Simply open `styles/index.css` in your local text editor, save the file to trigger an update, [wait until Parcel/Jekyll update](https://raw.githubusercontent.com/kangabru/jekyll-tailwindcss-boilerplate/assets/regenerate-log.jpg), then refresh your browser.
 >
 > Jekyll and Parcel run concurrently in dev builds so the CSS may not generate in time. This only happens once (when the file doesn't exist) and is not an issue in prod builds.
 
